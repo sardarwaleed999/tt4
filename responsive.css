@@ -1,6 +1,13 @@
 
+
+
+    
+
 body {
     overflow-x: hidden;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
 }
 
 img {
@@ -135,3 +142,614 @@ img {
 }
    
 /* footer  section*/
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* NAVBAR MOBILE */
+@media (max-width: 768px) {
+    .mnav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 0;
+        padding: 15px 10px;
+    }
+
+    .mnav button {
+        order: 3;
+    }
+}
+
+/* MAIN SECTION (ABOUT) */
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main1 {
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    .main h1 {
+        font-size: 35px;
+    }
+}
+
+/* IMAGE RESPONSIVE */
+@media (max-width: 900px) {
+    .imgg img {
+        width: 250px;
+        margin: auto;
+    }
+}
+
+/* ABOUT ME SECTION */
+@media (max-width: 900px) {
+    .main22 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .chadi,
+    .hp {
+        width: 100%;
+    }
+
+    .imggg img {
+        margin-left: 0;
+    }
+
+    .hp p {
+        width: 100%;
+    }
+}
+
+/* SKILLS SECTION */
+@media (max-width: 900px) {
+    .mainp img {
+        width: 80%;
+    }
+}
+
+/* EXPERIENCE SECTION */
+@media (max-width: 900px) {
+    .md1, .md2, .md3 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sd1, .sd2, .sd3,
+    .sd11, .sd22, .sd33,
+    .sd111, .sd222, .sd333 {
+        width: 90%;
+    }
+}
+
+/* WORK SECTION (PROJECTS) */
+@media (max-width: 1000px) {
+    .mainin {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tas,
+    .wri {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .wri img {
+        margin: auto;
+    }
+}
+
+/* TESTIMONIALS */
+@media (max-width: 900px) {
+    .jon {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .j, .o, .n {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+   /*contect section*/
+@media (max-width: 900px) {
+    .main7 h2,
+    .main7 h3 {
+        font-size: 26px;
+    }
+}
+   
+/* footer  section*/
+
+
+/* MOBILE 360px */
+@media (max-width: 360px) {
+    
+    /* NAVBAR */
+    .mnav {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    /* MAIN SECTION */
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main1 {
+        padding: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .main1 h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main1 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .loc, .dot {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .imgg img {
+        width: 250px;
+    }
+
+    /* ABOUT (main2) */
+    .main22 {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .imggg img {
+        width: 250px;
+        margin: 0;
+    }
+
+    .hp {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .hp p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* SKILLS */
+    .p1r img, .p2r img {
+        width: 300px;
+    }
+
+    /* EXPERIENCE (main4) */
+    .md1, .md2, .md3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sd1 img, .sd11 img, .sd111 img {
+        width: 150px;
+    }
+
+    .sd2, .sd22, .sd222 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sd3, .sd33, .sd333 {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* WORK SECTION */
+    .mainin {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tas img {
+        width: 260px;
+    }
+
+    .wri {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wri img {
+        width: 200px;
+    }
+
+    /* TESTIMONIAL */
+    .jon {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .jon img {
+        width: 80px;
+    }
+
+    /* GET IN TOUCH */
+    .main7 h2 {
+        font-size: 22px;
+    }
+
+    .main7 h3 {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    .foot p {
+        font-size: 12px;
+    }
+}
+  .main3 {
+         /* MOBILE 360px */
+@media (max-width: 360px) {
+    
+    /* NAVBAR */
+    .mnav {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    /* MAIN SECTION */
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main1 {
+        padding: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .main1 h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main1 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .loc, .dot {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .imgg img {
+        width: 250px;
+    }
+
+    /* ABOUT (main2) */
+    .main22 {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .imggg img {
+        width: 250px;
+        margin: 0;
+    }
+
+    .hp {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .hp p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* SKILLS */
+    .p1r img, .p2r img {
+        width: 300px;
+    }
+
+    /* EXPERIENCE (main4) */
+    .md1, .md2, .md3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sd1 img, .sd11 img, .sd111 img {
+        width: 150px;
+    }
+
+    .sd2, .sd22, .sd222 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sd3, .sd33, .sd333 {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* WORK SECTION */
+    .mainin {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tas img {
+        width: 260px;
+    }
+
+    .wri {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wri img {
+        width: 200px;
+    }
+
+    /* TESTIMONIAL */
+    .jon {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .jon img {
+        width: 80px;
+    }
+
+    /* GET IN TOUCH */
+    .main7 h2 {
+        font-size: 22px;
+    }
+
+    .main7 h3 {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    .foot p {
+        font-size: 12px;
+    }
+}
+
+  }
+  /* MOBILE — 320px */
+    
+
+
+  /* MOBILE — 320px */
+@media (max-width: 320px) {
+
+    /* NAVBAR */
+    .mnav {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .mnav a {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    /* MAIN SECTION */
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .main1 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .main1 h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .main1 p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .loc, .dot {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .imgg img {
+        width: 220px;
+    }
+
+    /* ABOUT (main2) */
+    .main22 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .imggg img {
+        width: 220px;
+        margin: 0;
+    }
+
+    .hp {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .hp h1 {
+        font-size: 20px;
+    }
+
+    .hp p {
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    /* SKILLS */
+    .p1r img,
+    .p2r img {
+        width: 260px;
+    }
+
+    /* EXPERIENCE */
+    .md1,
+    .md2,
+    .md3 {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sd1 img,
+    .sd11 img,
+    .sd111 img {
+        width: 130px;
+    }
+
+    .sd2,
+    .sd22,
+    .sd222 {
+        width: 100%;
+    }
+
+    .sd3,
+    .sd33,
+    .sd333 {
+        width: 100%;
+    }
+
+    /* WORK SECTION */
+    .mainin {
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .tas img {
+        width: 240px;
+    }
+
+    .wri img {
+        width: 180px;
+    }
+
+    .wri h1 {
+        font-size: 22px;
+    }
+
+    .wri p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* TESTIMONIALS */
+    .jon {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .jon img {
+        width: 70px;
+    }
+
+    .jon p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* CONTACT SECTION */
+    .main7 h2 {
+        font-size: 18px;
+    }
+
+    .main7 h3 {
+        font-size: 18px;
+    }
+
+    .tk i {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    .foot p {
+        font-size: 11px;
+    }
+}
