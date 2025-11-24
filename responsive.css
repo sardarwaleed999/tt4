@@ -352,7 +352,7 @@ img {
         line-height: 22px;
     }
 
-    /* SKILLS */
+    /* skil */
     .p1r img, .p2r img {
         width: 300px;
     }
@@ -378,7 +378,7 @@ img {
         text-align: center;
     }
 
-    /* WORK SECTION */
+    /* work section */
     .mainin {
         flex-direction: column;
         width: 100%;
@@ -399,7 +399,7 @@ img {
         width: 200px;
     }
 
-    /* TESTIMONIAL */
+    /* testimonial */
     .jon {
         flex-direction: column;
         width: 100%;
@@ -411,7 +411,7 @@ img {
         width: 80px;
     }
 
-    /* GET IN TOUCH */
+    /* get in touch */
     .main7 h2 {
         font-size: 22px;
     }
@@ -420,7 +420,7 @@ img {
         font-size: 20px;
     }
 
-    /* FOOTER */
+    /* footter */
     .foot p {
         font-size: 12px;
     }
@@ -429,7 +429,7 @@ img {
          /* MOBILE 360px */
 @media (max-width: 360px) {
     
-    /* NAVBAR */
+    /* nabbar */
     .mnav {
         width: 100%;
         padding: 10px;
@@ -475,7 +475,7 @@ img {
         width: 250px;
     }
 
-    /* ABOUT (main2) */
+    /* about (main2) */
     .main22 {
         flex-direction: column;
         padding: 0;
@@ -499,7 +499,7 @@ img {
         line-height: 22px;
     }
 
-    /* SKILLS */
+    /* skils  */
     .p1r img, .p2r img {
         width: 300px;
     }
@@ -525,7 +525,7 @@ img {
         text-align: center;
     }
 
-    /* WORK SECTION */
+    /* work */
     .mainin {
         flex-direction: column;
         width: 100%;
@@ -546,7 +546,7 @@ img {
         width: 200px;
     }
 
-    /* TESTIMONIAL */
+    /* testimonial */
     .jon {
         flex-direction: column;
         width: 100%;
@@ -574,11 +574,11 @@ img {
 }
 
   }
-  /* MOBILE — 320px */
+
     
 
 
-  /* MOBILE — 320px */
+  /* MOBILE 320px */
 @media (max-width: 320px) {
 
     /* NAVBAR */
@@ -599,7 +599,7 @@ img {
         font-size: 11px;
     }
 
-    /* MAIN SECTION */
+    /* Main*/
     .main {
         flex-direction: column;
         align-items: center;
@@ -631,7 +631,7 @@ img {
         width: 220px;
     }
 
-    /* ABOUT (main2) */
+    /*  ABOUT(main2) */
     .main22 {
         flex-direction: column;
         align-items: center;
@@ -693,7 +693,7 @@ img {
         width: 100%;
     }
 
-    /* WORK SECTION */
+    /* WORK  */
     .mainin {
         flex-direction: column;
         width: 100%;
@@ -753,3 +753,4 @@ img {
         font-size: 11px;
     }
 }
+

@@ -503,6 +503,56 @@ background-color:white;
     height: 50px;
 }
 
+.btn5{
+     background-color: rgb(239, 236, 236);
+    color: black;
+    border: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin: 5px;
+ 
+
+}
+
+.mainp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+  padding-left: 5%;
+  
+}
+
+/* Both rows become responsive grids */
+.p1r, .p2r {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 800px;
+  justify-items: center;
+}
+
+.ttt {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.ttt:hover {
+  transform: scale(1.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .ttt {
+    width: 50px;
+    height: 50px;
+  }
+}
 
 
     
