@@ -68,6 +68,7 @@ img {
     .chadi,
     .hp {
         width: 100%;
+        height: auto;
     }
 
     .imggg img {
@@ -102,7 +103,7 @@ img {
 }
 
 /* WORK SECTION (PROJECTS) */
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .mainin {
         flex-direction: column;
         text-align: center;
@@ -120,9 +121,10 @@ img {
 }
 
 /* TESTIMONIALS */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .jon {
         flex-direction: column;
+        
         width: 100%;
         gap: 20px;
     }
@@ -234,6 +236,7 @@ img {
     .sd111, .sd222, .sd333 {
         width: 90%;
     }
+    
 }
 
 /* WORK SECTION (PROJECTS) */
@@ -699,7 +702,9 @@ img {
         width: 100%;
         padding: 5px;
         text-align: center;
+        
     }
+   
 
     .tas img {
         width: 240px;
@@ -753,4 +758,124 @@ img {
         font-size: 11px;
     }
 }
+/* correctipon things*/
+
+
+@media (max-width: 480px) {
+  .ps {
+    font-size: 14px;
+    padding: 10px;
+    width: 300px;
+    text-align: start;
+  }
+}
+
+/* Tablet / iPad */
+@media (max-width: 768px) {
+  .ps {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+  .ps {
+    font-size: 18px;
+    max-width: 700px;
+  }
+}
+/* correctipon things*/
+
+@media (max-width: 480px) {
+  .ttt {
+    width: 50px;
+  }
+
+  .mb p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet / iPad */
+@media (max-width: 768px) {
+
+   
+  .ttt {
+    width: 65px;
+    margin-top: 20px;
+  }
+
+  .mb p {
+    font-size: 16px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+  .ttt {
+    width: 75px;
+  }
+}
+/* Tablet / iPad  corrrection*/
+
+@media (max-width: 768px) {
+  .hp {
+    max-width: 90%;
+    padding: 20px 10px;
+  }
+
+  .hp h1 {
+    font-size: 26px;
+  }
+
+  .hp p {
+    font-size: 15px;
+    line-height: 1.6;
+    
+    padding-left: 45px;
+    text-align: start;
+  }
+}
+
+/* Tablet / mobil*/
+
+@media (max-width: 480px) {
+  .hp {
+    max-width: 95%;
+    padding: 15px 8px;
+  }
+
+  .hp h1 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .hp p {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) and (min-width: 425px){
+  
+   .jon {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 24px;
+      justify-items: stretch;
+      
+      
+     
+    }
+    .mainin .tas{
+        order: 1; 
+    }
+    .mainin .wri{
+        order: 2;
+    }
+
+}
+
+
 
