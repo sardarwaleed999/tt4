@@ -55,6 +55,7 @@ margin-right: 200px;
     margin-top: 100px;
 }
 .imgg{
+    width: 375px;
     justify-content: center;
     box-shadow: slategrey,10px;
     margin-top: 60px;
