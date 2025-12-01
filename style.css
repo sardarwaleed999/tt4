@@ -446,16 +446,19 @@ background-color:white;
     
     line-height: 25px;
     background-color: white;
+     min-height:  382px;
 }
 .o{
      
        line-height: 25px;
        background-color: white; 
+           min-height:  382px;
 }
 .n{   
        
        line-height: 25px; 
        background-color: white; 
+           min-height:  382px;
 }
 .jon img{
     padding: 10px;
@@ -463,6 +466,7 @@ background-color:white;
 }
 .jon P{
      margin: 20PX;
+
 }
 .jon h2{
     padding-top: 20PX;
@@ -570,7 +574,6 @@ background-color:white;
     margin: 2px;
     padding-right: 10px;
 }
-
 
 
 

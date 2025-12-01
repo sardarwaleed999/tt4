@@ -1,0 +1,39 @@
+// ... existing code ...
+.main6 .mbb{
+   
+  padding-top: 50px;
+
+}
+
+
+.jon{
+  
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+    align-items: stretch;
+    
+}
+
+.j, .o, .n {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+}
+
+.j p, .o p, .n p {
+    flex-grow: 1;
+}
+
+.jon img{
+    padding: 10px;
+    margin-top: 40PX;   
+}
+// ... existing code ...

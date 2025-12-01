@@ -868,8 +868,9 @@ img {
        }
     .jon .n {
       grid-column: 1 / -1;
-      width: 50%;
+      width: 60%;
       justify-content: center;
+      
     }
     .mainin .tas{
         order: 1; 
@@ -913,6 +914,7 @@ img {
     .imgg {
         order: 1;
         margin-top: 20px;
+        width: 250px;
     }
     .main h1 {
         font-size: 48px;
@@ -996,6 +998,7 @@ img {
     .j, .o, .n {
         width: 100%;
     }
+    
 
     /* Get in touch */
     .main7 h2, .main7 h3 {
@@ -1008,7 +1011,8 @@ img {
         width: auto;
         height: auto;
         max-width: none;
-        max-height: none, }
+        max-height: none;
+    }
 }
 @media (max-width: 720px) and (min-width: 480px) {
     .main1 .ps {
@@ -1021,3 +1025,25 @@ img {
         padding: 0 10px;
     }
 }
+
+@media (max-width: 1315px) and (min-width: 1020px){
+    .main1 {
+        margin-right: 0;
+        padding: 20px;
+        flex: 1;
+    }
+    .imgg {
+        margin-top: 0;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgg img {
+        width: 375px;
+        height: auto;
+    }
+    .main h1 {
+        font-size: 48px;
+    }
+}  
