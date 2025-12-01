@@ -997,6 +997,8 @@ img {
     }
     .j, .o, .n {
         width: 100%;
+       
+    
     }
     
 
@@ -1047,3 +1049,8 @@ img {
         font-size: 48px;
     }
 }  
+@media (max-width:1125px ) and (min-width: 1024px){
+    .hp {
+        line-height:1px;
+    }
+}
